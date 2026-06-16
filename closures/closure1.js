@@ -20,3 +20,15 @@ Line 4 (var a = 7;): Inside x, the variable a is assigned the value 7.
 Line 8 (y();): Still inside x, the engine calls the innermost function y().
 Line 6 (console.log(a, b);): Inside y, the engine looks up the chain, finds a in x, finds b in z, and prints 7 900.
 */
+
+/*
+Uses of closures
+- Module Design Pattern
+- Currying
+- Functions like once
+- memoize
+- maintaining state in async world
+- setTimeouts
+- Iterators
+- and many more
+*/
